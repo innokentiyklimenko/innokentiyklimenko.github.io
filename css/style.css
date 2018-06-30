@@ -81,7 +81,7 @@ header small {
 	text-align: center;
 }
 .portfolio-col-1 {
-	padding-left: 51px;
+	padding-left: 80px;
 }
 .portfolio-col-2 {
 	padding-right: 50px;
@@ -150,6 +150,9 @@ footer {
 	.header-pretitle {
 		margin-top: 60px;
 	}
+	.portfolio-col-1 {
+	padding-left: 50px;
+}
 }
 @media (max-width: 992px) {
 	header {
