@@ -162,7 +162,7 @@ footer {
 		display: none;
 	}
 	.header-pretitle {
-		margin-top: 10px;
+		margin-top: 0px;
 	}
 	.footer-author {
 		font-size: 18px;
@@ -183,6 +183,10 @@ footer {
 	}
 	.header-button-block {
 		margin: auto;
+	}
+	footer {
+		padding-bottom: 30px;
+		padding-top: 30px;
 	}
 }
 @media (max-width: 768px) {
