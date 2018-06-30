@@ -39,6 +39,10 @@ img {
 	font-weight: 700;
 	padding: 17px 55px;
 	outline: none;
+	transition: 0.2s;
+}
+.header-button:hover {
+	box-shadow: none;
 }
 header small {
 	font-size: 12px;
@@ -136,6 +140,11 @@ footer {
 	padding: 12px 40px;
 	text-decoration: none;
 	outline: none;
+	transition: 0.2s;
+}
+.footer-button:hover {
+	background-color: #fff;
+	color: #3a7dfd;
 }
 @media (max-width: 1200px) {
 	.header-pretitle {
