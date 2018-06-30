@@ -28,6 +28,8 @@ img {
 	margin-top: 20px;
 }
 .header-button {
+	display: inline-block;
+	text-decoration: none;
 	border: none;
 	box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
 	border-radius: 25px;
@@ -36,6 +38,7 @@ img {
 	font-size: 18px;
 	font-weight: 700;
 	padding: 17px 55px;
+	outline: none;
 }
 header small {
 	font-size: 12px;
@@ -131,6 +134,8 @@ footer {
 	font-size: 18px;
 	border-radius: 24px;
 	padding: 12px 40px;
+	text-decoration: none;
+	outline: none;
 }
 @media (max-width: 1200px) {
 	.header-pretitle {
