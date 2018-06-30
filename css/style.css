@@ -152,6 +152,12 @@ footer {
 	}
 }
 @media (max-width: 992px) {
+	header {
+		text-align: center
+	}
+	.header-title {
+		margin: auto;
+	}
 	.header-img{
 		display: none;
 	}
@@ -174,6 +180,9 @@ footer {
 	.footer-button {
 		font-size: 14px;
 		padding: 8px 35px;
+	}
+	.header-button-block {
+		margin: auto;
 	}
 }
 @media (max-width: 768px) {
