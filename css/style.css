@@ -18,10 +18,10 @@ img {
 	margin-top: 107px;
 }
 .header-title {
-	font-size: 48px;
+	font-size: 40px;
 	font-weight: 700;
 	line-height: 36.81px;
-	width: 516px;
+	width: auto;
 	margin-top: 21px;
 }
 .header-subtitle {
@@ -77,11 +77,15 @@ header small {
 	color: #7bb9ff;
 	margin-bottom: 29px;
 }
+.portfolio-img {
+	width: 1050px;
+	border: 1px solid;
+}
 .portfolio-title, .portfolio-subtitle {
 	text-align: center;
 }
 .portfolio-col-1 {
-	padding-left: 80px;
+	padding-left: 50px;
 }
 .portfolio-col-2 {
 	padding-right: 50px;
@@ -150,9 +154,16 @@ footer {
 	.header-pretitle {
 		margin-top: 60px;
 	}
+	.header-title {
+		font-size: 30px;
+	}
 	.portfolio-col-1 {
 	padding-left: 50px;
-}
+	}
+	.portfolio-img {
+	width: 900px;
+	border: 1px solid;
+	}
 }
 @media (max-width: 992px) {
 	header {
@@ -191,6 +202,10 @@ footer {
 		padding-bottom: 30px;
 		padding-top: 30px;
 	}
+	.portfolio-img {
+	width: 650px;
+	border: 1px solid;
+	}
 }
 @media (max-width: 768px) {
 	.header-title {
@@ -208,5 +223,13 @@ footer {
 	}
 		.footer-author, .footer-text {
 		text-align: center;
+	}
+	.portfolio-img {
+	width: 400px;
+	border: 1px solid;
+	margin: auto;
+	}
+	.header-title {
+		font-size: 25px;
 	}
 }
